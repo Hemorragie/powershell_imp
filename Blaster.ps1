@@ -1,4 +1,4 @@
-#ChocoBlaster 2024
+#Blaster 2024
 
 # Import the necessary functions from user32.dll
 Add-Type @"
@@ -17,7 +17,7 @@ $signature = @"
 $url = "https://img.nrj.fr/O_S5cXRddDwFQw3iWgnkw1Gkhew=/medias%2F2023%2F11%2Fsn6o-ta0bj1na2hpfxkymvqxw2zivunqsat7ajyz-si_65533d8be6788.jpg"
 
 # Download the image to a temporary file
-$downloadPath = "C:\Users\" + $env:USERNAME + "\Downloads\choco.jpg"
+$downloadPath = "C:\Users\" + $env:USERNAME + "\Downloads\blaster.jpg"
 Invoke-WebRequest -Uri $url -OutFile $downloadPath
 
 Write-Host "Downloaded image file: $downloadPath"
