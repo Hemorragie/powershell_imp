@@ -22,7 +22,6 @@ Invoke-WebRequest -Uri $url -OutFile $downloadPath
 
 Write-Host "Downloaded image file: $downloadPath"
 
-
 # Load the SystemParametersInfo function
 [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") | Out-Null
 Add-Type -MemberDefinition $signature -Namespace User32 -Name Wallpaper
