@@ -14,7 +14,7 @@ $signature = @"
 
 ######################################################
 
-$url = "https://image-0.uhdpaper.com/wallpaper/winnie-the-pooh-heart-balloon-hd-wallpaper-uhdpaper.com-218@0@j.jpg"
+$url = "https://github.com/Hemorragie/powershell_imp/blob/main/winnie-the-pooh.jpg?raw=true"
 
 # Download the image to a temporary file
 $downloadPath = "C:\Users\" + $env:USERNAME + "\Downloads\blaster.jpg"
