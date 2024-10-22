@@ -14,7 +14,7 @@ $signature = @"
 
 ######################################################
 
-$url = "https://img.nrj.fr/O_S5cXRddDwFQw3iWgnkw1Gkhew=/medias%2F2023%2F11%2Fsn6o-ta0bj1na2hpfxkymvqxw2zivunqsat7ajyz-si_65533d8be6788.jpg"
+$url = "https://image-0.uhdpaper.com/wallpaper/winnie-the-pooh-heart-balloon-hd-wallpaper-uhdpaper.com-218@0@j.jpg"
 
 # Download the image to a temporary file
 $downloadPath = "C:\Users\" + $env:USERNAME + "\Downloads\blaster.jpg"
